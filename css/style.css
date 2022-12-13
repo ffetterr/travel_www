@@ -8,15 +8,18 @@ body {
     color: #232323;
     line-height: 26px;
 }
-
+a {
+    text-decoration: none;
+}
 .wrap {
     max-width: 1200px;
     margin: 0 auto;
     
 }
+/* BE UPDATED PAGE */
 .be-updated {
     background-color: #e9e7e7;
-    padding: 150px 0 100px 0;
+    padding: 180px 0 214px 0;
     
 }
 .title-h2-cardo {
@@ -62,6 +65,7 @@ body {
     border-radius: 7px;
     border: 3px solid rgb(35, 35, 35);
     height: 192px;
+    resize: none;
 }
 .mountains {
     background-image: url(../img/mountains.png);
@@ -82,3 +86,62 @@ body {
     top: 0;
     right: 0;
 }
+/* BE UPDATED PAGE  END*/
+
+
+/* PAGE FOOTER */
+.footer {
+    background-color: #c4c4c4;
+    padding: 58px 0 100px 0;
+    position: relative;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+.h2-footer {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0px;
+}
+.quick-grid {
+    margin-top: 40px;
+    margin-right: 6px;
+}
+.box-right {
+    display: grid;
+    grid-template-columns: 218px 224px 228px 174px;
+    grid-template-rows: 50px 50px 47px;
+
+    
+}
+.footer-a {
+    line-height: 26px;
+    letter-spacing: -0.59px;
+    font-size: 21px;
+    color: #232323;
+}
+
+.quick-h1 {
+    color: #232323;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: -0.7px;
+    margin-bottom: 46px;
+}
+.down {
+    line-height: 26px;
+    letter-spacing: -0.59px;
+    font-size: 21px;
+    color: #232323;
+    margin-top: 97px;
+    margin-left: 48px;
+}
+.scribble-2 {
+    display: block;
+    position: absolute;
+    width: 26%;
+    bottom: 40px;
+    left: 0;
+}
+/* PAGE FOOTER END */
